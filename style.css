@@ -1,0 +1,105 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Nunito";
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+#main {
+  width: 100%;
+  height: 100%;
+  /* background-color: white; */
+}
+#nav {
+  width: 100%;
+  height: 50px;
+  /* background-color:red ; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 30px;
+  padding: 0px 30px;
+}
+
+#nav h4 {
+  font-size: 20px;
+  font-weight: 600;
+}
+#nav i {
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 50%;
+  font-weight: 400;
+}
+.center {
+  /* background-color: rgb(72, 155, 237); */
+  padding: 10px 80px;
+}
+.center h1 {
+  font-size: 50px;
+  line-height: 55px;
+}
+
+.center-in {
+  height: 130px;
+  /* background-color: red; */
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.center-in p {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  /* justify-content: flex-end; */
+}
+
+.right {
+  height: 60%;
+  width: 20%;
+  /* background-color: aquamarine; */
+}
+.ele {
+  padding: 10px 0px;
+  /* margin: 5px; */
+  font-size: 18px;
+  /* background-color: aqua; */
+  border-top: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ele i {
+  font-size: 18px;
+  font-weight: 500;
+  opacity: 0;
+}
+.ele a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 18px;
+}
+.ele:hover a {
+  text-decoration: underline;
+}
+.ele:hover i {
+  opacity: 1;
+}
+.bottom {
+  height: 32.35%;
+  width: 100%;
+
+  /* background-color: blueviolet; */
+  background-image: url(https://images.unsplash.com/photo-1546541612-82d19b258cd5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-position: 0 64%;
+}
